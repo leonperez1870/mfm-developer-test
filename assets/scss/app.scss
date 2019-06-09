@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 53px;
+  color: #2d2d2d;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.Container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Products {
+  margin: 20px 0;
+  &__grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__grid-item {
+    width: 23%;
+    cursor: pointer;
+    text-align: center;
+  }
+}
